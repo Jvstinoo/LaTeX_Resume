@@ -13,12 +13,16 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.3in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[normalem]{ulem}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\name{Justin Balbuena} % Your name
-\address{Camuy, PR \textbullet\ (787) 210 - 5985} % Your address
-%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{justinoscar30@gmail.com \textbullet\ linkedin.com/in/jbalbuena \textbullet\ github.com/Jvstinoo} % Your phone number and email
+\name{Justin Balbuena}
+\address{Camuy, PR \textbullet\ (787) 210 - 5985}
+\address{justinoscar30@gmail.com \textbullet\ 
+\href{https://www.linkedin.com/in/jbalbuena}{\color{blue}linkedin.com/in/jbalbuena} \textbullet\
+\href{https://www.github.com/Jvstinoo}{\color{blue}github.com/Jvstinoo}}
 
 \begin{document}
 %----------------------------------------------------------------------------------------
@@ -87,7 +91,7 @@ Implemented Huffman Encoding Algorithm to encode strings in order to save space.
 \vspace{-0.2\baselineskip} % Adjust the space here
 \begin{itemize}[noitemsep]
     \item Answer any questions students would have during lab by explaining Object Oriented Programming concepts, C++ syntax, Visual Studio Code errors, Git, GitHub, and others.
-    \item Tested the lab beforehand to look for any bugs that the problems might have. 
+    \item Tested the lab beforehand in search for any bugs that the problems might have. 
 \end{itemize}
 %--copy and paste this region  if you need more--
 \end{rSection}
